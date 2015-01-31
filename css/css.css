@@ -1,0 +1,154 @@
+﻿body
+{
+    padding-top:70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#masthead nav
+{
+    position:fixed;
+    top:0;
+    left:0;
+    background: #fafafa;
+    border-bottom: 2px solid #ff6a00;
+    height: 70px;
+    width: 100%;
+}
+
+#masthead nav ul{
+    float:right;
+}
+
+#masthead nav li a{
+    padding: 25px 10px;
+    display:block;
+    text-decoration:none;
+
+}
+
+#masthead nav li a:hover{
+    text-decoration:underline;
+    background-color: orange;
+}
+
+nav li {
+    float:left;
+    width:auto;
+}
+
+nav li a {
+    padding:25px 10px;
+    display:block;
+}
+
+#brand{
+    text-indent:-9000px;
+    background: url(../images/cojorado.jpg) no-repeat top left;
+    height: 60px;
+    width: 60px;
+    margin:5px;
+    float:left;
+}
+
+.container{
+    width:1024px;
+    margin:0 auto;
+}
+
+#hero{
+    background: url(../images/wood.jpg) no-repeat top left;
+    color: #fafafa;
+    text-align:center;
+    height:350px;
+    padding: 25px 0px;
+    background-size: cover;
+}
+
+#hero img{
+    width: 250px;
+    border-radius: 10px 40px;
+    border: 3px orange;
+    margin-top: 30px;
+}
+
+#hero h1{
+    font-size:64px;
+    color: midnightblue;
+    margin:20px;
+    color:white;
+}
+
+#hero a:hover{
+    background: black;
+    color:cornflowerblue;
+}
+
+#profile article{
+    width:30%;
+    padding:15px;
+   display:inline-block;
+    text-align:center;
+}
+
+#profile article img{
+    width:50%;
+    max-width:90%;
+    border-radius:70%;
+    margin-bottom:10px;
+    -webkit-filter:blur(2px);
+}
+
+ 
+#profile img:hover {
+ -webkit-filter:blur(0px);
+}
+
+#profile article p{
+    line-height:20px;
+}
+
+#profile h2{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080 ;
+    text-align: center;
+    margin:30px 0;
+    line-height:40px;
+}
+
+#profile h3{
+    font-size: 24px;
+    color: #808080;
+    margin-bottom: 10px;
+}
+
+#profile article a{
+    display: inline-block;
+    color: #8F4968;
+    margin-top: 20px;
+    font-family:'Comic Sans MS';
+}
+
+#social {
+    background: #808080;
+    color: #8f4968;
+    padding: 25px 0;
+    overflow: hidden;
+}
+
+#social li {
+    float:left;
+    width: auto;
+    padding: 20px;
+}
+
+#social ul {
+    width: 5200px;
+    margin: 0 auto;
+}
+
+#social h3{
+     font-size: 32px;
+    color: #e408d8;
+    margin-bottom: 10px;
+}
