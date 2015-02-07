@@ -4840,12 +4840,8 @@ a.badge:focus {
 .jumbotron {
     padding: 30px 15px;
     margin-bottom: 30px;
-<<<<<<< HEAD
-    background: url('../images/sunset.jpg') no-repeat;
-=======
-       background: url('../../images/sunset.jpg') no-repeat;
->>>>>>> parent of 2ce94ad... Image issues
-    background-size: 100%;
+    background: url('images/sunset.jpg') no-repeat;
+	background-size:100%;
 }
 
 .jumbotron h1,
