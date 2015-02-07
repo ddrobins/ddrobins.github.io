@@ -1,10 +1,10 @@
 ﻿
-body {
+/*body {
     padding-top: 70px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#masthead nav {
+nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -14,15 +14,15 @@ body {
     width: 100%;
 }
 
-#masthead nav ul { float: right; }
+nav ul { float: right; }
 
-#masthead nav li a {
+nav li a {
     padding: 25px 10px;
     display: block;
     text-decoration: none;
 }
 
-#masthead nav li a:hover {
+nav li a:hover {
     text-decoration: underline;
     background-color: orange;
 }
@@ -37,14 +37,6 @@ nav li a {
     display: block;
 }
 
-/*#brand{
-    text-indent:-9000px;
-    background: url(../images/cojorado.jpg) no-repeat top left;
-    height: 60px;
-    width: 60px;
-    margin:5px;
-    float:left;
-}*/
 
 .container {
     width: 1024px;
@@ -59,17 +51,17 @@ nav li a {
     padding: 45px 20px;
     -ms-background-size: cover;
     background-size: cover;
-}
+}*/
 
 #hero img {
-    width: 250px;
+    width: 140px;
     -ms-border-radius: 10px 40px;
     border-radius: 10px 40px;
     border: 3px orange;
     margin-top: 30px;
 }
 
-#hero h1 {
+/*#hero h1 {
     font-size: 64px;
     color: black;
     margin: 20px;   
@@ -178,5 +170,5 @@ nav li a {
   #sidebar {
     width: 200px;
   }
-}
+}*/
 

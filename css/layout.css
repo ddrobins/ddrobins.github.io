@@ -1,0 +1,105 @@
+﻿
+
+.pull-left {
+width: auto;
+float: left;
+}
+
+.wrap {
+width: 90%;
+}
+
+#position-statement {
+text-align: center;
+}
+
+.full-bleed {
+padding: 3em 0;
+overflow: hidden;
+}
+
+section {
+overflow: hidden;
+}
+
+footer .column {
+width: 20%;
+float: left;
+}
+
+body {
+	padding-top: 70px;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Bree Serif', serif;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fafafa;
+	border-bottom: 2px solid #ccc;
+	height: 70px;
+	width: 100%;
+	font-weight: 700;
+}
+nav ul {
+	float: right;
+	width: auto;
+}
+nav li {
+	float: left;
+	width: auto;
+}
+nav li a {
+	padding: 27px 10px;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+nav li a:hover {
+	background: #ee4579;
+	color: #fafafa;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#hero {
+	background: url(../images/wood.jpg) no-repeat top left;
+	text-align: center;
+	color: #fafafa;
+	padding: 25px 0;
+	height: 350px;
+	background-size: cover;
+}
+
+#hero img {
+	width: 150px;
+	border-radius: 50%;
+	margin-top: 30px;
+	opacity: 1;
+	transition: all 1s ease-in-out;
+
+}
+#hero img:hover {
+	opacity: .8;
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+#hero h2 {
+	font-size: 300%;
+	margin: 15px;
+}
