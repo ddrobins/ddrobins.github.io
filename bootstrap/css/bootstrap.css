@@ -4838,10 +4838,10 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-    padding: 30px 15px;
-    margin-bottom: 30px;
-    background: url('images/sunset.jpg') no-repeat;
-	background-size:100%;
+    padding: 15px 15px;
+    margin-bottom: 25px;
+    background: url('../../images/robinson.jpg');
+    background-size: 100%;
 }
 
 .jumbotron h1,
