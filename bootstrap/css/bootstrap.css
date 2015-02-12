@@ -1299,6 +1299,8 @@ mark,
   padding: .2em;
   background-color: #fcf8e3;
 }
+
+
 .text-left {
   text-align: left;
 }
@@ -4840,8 +4842,9 @@ a.badge:focus {
 .jumbotron {
     padding: 15px 15px;
     margin-bottom: 25px;
-    background: url('../../images/robinson.jpg');
-    background-size: 100%;
+    background: url('../../images/plank.jpg');
+    
+    background-repeat: repeat-x;
 }
 
 .jumbotron h1,
